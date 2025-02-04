@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="menu">
+                <nav>
+                    <a href="">Home</a>
+                    <a href="">Shop</a>
+                    <a href="">Blog</a>
+                    <a href="">Vendors</a>
+                    <a href="">Page</a>
+                </nav>
+            </div>
+            <div class="search-bar">
+                <input placeholder="Search..." type="search" name="search" id="search-input">
+                <div></div>
+                <select name="seach-category" id="seach-category">
+                    <option value="">All Category</option>
+                    <option value="">Dining Chair</option>
+                    <option value="">Sofas</option>
+                    <option value="">Tables</option>
+                </select>
+                <button id="search-button"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg></button>
+            </div>
+            <div class="icons-menu">
+                <div class="login-action menu-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M480-120v-80h280v-560H480v-80h280q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H480Zm-80-160-55-58 102-102H120v-80h327L345-622l55-58 200 200-200 200Z"/></svg>
+                    <span>Login</span>
+                </div>
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg>
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M560-160v-80h104L537-367l57-57 126 126v-102h80v240H560Zm-344 0-56-56 504-504H560v-80h240v240h-80v-104L216-160Zm151-377L160-744l56-56 207 207-56 56Z"/></svg>
+                <svg class="menu-icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm280-240q83 0 141.5-58.5T680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z"/></svg>
+            </div>
+        </header>
+        <section class="shop-container">
+            <div class="news-section">
+                <div class="carousel-news">
+                    <div class="section-1" data-new="1">
+                        <div class="info-section">
+                            <div class="name-info-section">
+                                <span>Davici furniture</span>
+                                <br>
+                                <span>2020</span>
+                            </div>
+                            <div class="sub-title-info-section">
+                                <span>NEW FURNITURES</span>
+                            </div>
+                            <div class="title-info-section">
+                                <h1>New Collection</h1>
+                            </div>
+                            <button>Shop now</button>
+                            <br>
+                            <!-- <span class="num-section">01</span> -->
+                        </div>
+                        <img src="/practica-frontend-crosstraining/pagina-1/Images/living-room-couch.png" alt="">
+                    </div>
+                    <div class="section-2" data-new="2"></div>
+                    <div class="section-3" data-new="3"></div>
+                </div>
+                <div class="carousel-displacement">
+                    <span class="dot active-dot"></span>
+                    <span class="dot inactive-dot"></span>
+                    <span class="dot inactive-dot"></span>
+                </div>
+            </div>
+
+            
+            <div class="category-section">
+                <div class="category-description">
+                    <h1 class="title-category-description">Shop <br> by categories</h1>
+                    <div class="divided-line-category"></div>
+                    <div class="unique-products-section">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#5f6368"><path d="M200-120q-17 0-28.5-11.5T160-160v-40q-50 0-85-35t-35-85v-200q0-50 35-85t85-35v-80q0-50 35-85t85-35h400q50 0 85 35t35 85v80q50 0 85 35t35 85v200q0 50-35 85t-85 35v40q0 17-11.5 28.5T760-120q-17 0-28.5-11.5T720-160v-40H240v40q0 17-11.5 28.5T200-120Zm-40-160h640q17 0 28.5-11.5T840-320v-200q0-17-11.5-28.5T800-560q-17 0-28.5 11.5T760-520v160H200v-160q0-17-11.5-28.5T160-560q-17 0-28.5 11.5T120-520v200q0 17 11.5 28.5T160-280Zm120-160h400v-80q0-27 11-49t29-39v-112q0-17-11.5-28.5T680-760H280q-17 0-28.5 11.5T240-720v112q18 17 29 39t11 49v80Zm200 0Zm0 160Zm0-80Z"/></svg>
+                        <div class="category-unique-products">
+                            <span>200 +</span>
+                            <br>
+                            <span>Unique products</span>
+                        </div>
+                    </div>
+                    <div class="all-categories-title">
+                        <span>ALL CATEGORIES</span>
+                    </div>
+                </div>
+                <div class="card-category">
+                    <a href="">
+                        <div class="card-category-img-section">
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/chair.webp" alt="">
+                        </div>
+                        <span>Dining Chair</span>
+                    </a>
+                </div>
+                <div class="card-category">
+                    <a href="">
+                        <div class="card-category-img-section">
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/Couch.png" alt="">
+                        </div>
+                        <span>Sofas</span>
+                    </a>
+                </div>
+                <div class="card-category">
+                    <a href="">
+                        <div class="card-category-img-section">
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/table.webp" alt="">
+                        </div>
+                        <span>Table</span>
+                    </a>
+                </div>
+            </div>
+
+
+            <div class="rooms-section">
+                <div class="room-card room-card-1">
+                    <img src="/practica-frontend-crosstraining/pagina-1/Images/LivingRoom.jpg" alt="">
+                    <div class="room-info">
+                        <span class="disccount-text">30% OFF</span>
+                        <h1 class="title-room">Living Room</h1>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+                <div class="room-card room-card-2">
+                    <img src="/practica-frontend-crosstraining/pagina-1/Images/Bedroom.jpg" alt="">
+                    <div class="room-info">
+                        <span class="disccount-text">30% OFF</span>
+                        <h1 class="title-room">Bedroom</h1>
+                        <button>Shop now</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="products-section">
+                <div class="header-poducts">
+                    <div class="title-header-products">
+                        <h1>Hot Products</h1>
+                        <div class="line-decoration-title-header-products"></div>
+                    </div>
+                    <div class="products-tab">
+                        <div id="latest-products-tab" class="tab-item tab-item-selected">LATEST PRODUCTS</div>
+                        <div id="top-rating-tab" class="tab-item">TOP RATING</div>
+                        <div id="best-sellers-tab" class="tab-item">BEST SELLERS</div>
+                    </div>
+                    <button>All products</button>
+                </div>
+
+
+                <div class="list-products-section">
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product"></div>
+                                <div class="product-disccount-percent discount-active">
+                                    <span>-30%</span>
+                                </div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/chair.webp" alt="">
+                            <div class="product-dimentions dimenstion-active">
+                                <span>Dimensions: 259d : 14h : 44m : 52s</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Chair</div>
+                            <div class="product-price">
+                                <span class="regular-price">$300.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product"></div>
+                                <div class="product-disccount-percent discount-active">
+                                    <span>-20%</span>
+                                </div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/Couch.png" alt="">
+                            <div class="product-dimentions"></div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Sofa</div>
+                            <div class="product-price">
+                                <span class="regular-price">$500.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product best-seller">
+                                    <span>HOT</span>
+                                </div>
+                                <div class="product-disccount-percent discount-active">
+                                    <span>-10%</span>
+                                </div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/furniture.webp" alt="">
+                            <div class="product-dimentions"></div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Table</div>
+                            <div class="product-price">
+                                <span class="regular-price">$600.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product best-seller">
+                                    <span>HOT</span>
+                                </div>
+                                <div class="product-disccount-percent"></div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/Garden.webp" alt="">
+                            <div class="product-dimentions"></div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Lamp</div>
+                            <div class="product-price">
+                                <span class="regular-price">$550.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product"></div>
+                                <div class="product-disccount-percent discount-active">
+                                    <span>-10%</span>
+                                </div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/lamp.webp" alt="">
+                            <div class="product-dimentions dimenstion-active">
+                                <span>Dimensions: 259d : 14h : 44m : 52s</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Lamp</div>
+                            <div class="product-price">
+                                <span class="regular-price">$400.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product best-seller">
+                                    <span>HOT</span>
+                                </div>
+                                <div class="product-disccount-percent"></div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/Sideboard.png" alt="">
+                            <div class="product-dimentions"></div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Lamp</div>
+                            <div class="product-price">
+                                <span class="regular-price">$390.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product best-seller">
+                                    <span>HOT</span>
+                                </div>
+                                <div class="product-disccount-percent discount-active">
+                                    <span>-25%</span>
+                                </div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/table.webp" alt="">
+                            <div class="product-dimentions"></div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Lamp</div>
+                            <div class="product-price">
+                                <span class="regular-price">$620.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-item">
+                        <div class="product-img">
+                            <div class="porduct-img-higlights">
+                                <div class="hot-product best-seller">
+                                    <span>HOT</span>
+                                </div>
+                                <div class="product-disccount-percent"></div>
+                            </div>
+                            <img src="/practica-frontend-crosstraining/pagina-1/Images/wardrobe.png" alt="">
+                            <div class="product-dimentions"></div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-review">
+                                <div class="product-rating">
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star star-checked"></span>
+                                    <span class="fa fa-star"></span>
+                                </div>
+                                <span class="product-comments">(5 comments)</span>
+                            </div>
+                            <div class="product-name">Lamp</div>
+                            <div class="product-price">
+                                <span class="regular-price">$630.00</span>
+                                <span class="discount-price"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/practica-frontend-crosstraining/pagina-1/index.js"></script>
+</body>
+</html>
